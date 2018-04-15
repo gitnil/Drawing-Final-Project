@@ -1,0 +1,37 @@
+/*
+Drawing on the Web
+3 horizontally-aligned canvas elements
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 1920px;
+  height: 100%;
+  margin: auto;
+}
+
+#frame {
+  width: inherit;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  margin-top: -200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+canvas {
+  width: 600px;
+  height: 400px;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+video{
+  width: 0px;
+  height: 0px;}
