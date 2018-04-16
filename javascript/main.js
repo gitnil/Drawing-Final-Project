@@ -5,14 +5,15 @@
       const canvas3 = document.getElementById('c1');
       const context3 = canvas3.getContext('2d');
 
-      var referenceWidth = 600;
-      var referenceHeight = 400;
+      var referenceWidth = window.innerWidth;
+      var referenceHeight = window.innerHeight;
       var image = new Image();
-      image.src = "../images/rock.jpg";
+      image.src = "images/d2prog.png";
 
 
-      var video = document.querySelector('video');
-      video.addEventListener('loadeddata',setup);
+      var video2 = document.querySelectorAll('video')[0];
+
+      video2.addEventListener('loadeddata',setup);
 
       function setup() {
         // set the display size
@@ -36,7 +37,9 @@
       }
       var frames = 0;
       function draw() {
-        context3.drawImage(video,0,0,600,400);
+        context3.drawImage(video2,0,0,referenceWidth,referenceHeight);
+
+        context.drawImage(image,0,0,referenceWidth,referenceHeight);
 
         requestAnimationFrame(draw);
       }
