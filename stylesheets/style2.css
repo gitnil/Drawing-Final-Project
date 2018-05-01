@@ -1,0 +1,186 @@
+.circle1{
+	fill: #e24912;
+}
+.rect{
+	fill: rgb(66, 18, 0);
+}
+.triangle{
+	position: relative;
+	top:100px;
+	left: 200px;
+	fill: rgb(255, 240, 84);
+}
+#rect2{
+	fill: red;
+	mix-blend-mode: soft-light;
+	border-radius: 30%;
+}
+#join{
+	position: absolute;
+	top: 560px;
+	left: 1180px;
+}
+#glass{
+	position: absolute;
+	top: 560px;
+	left: 1160px;
+	width: 200px;
+	mix-blend-mode: overlay;
+}
+#girl{
+	position: absolute;
+	top: 500px;
+	left: 1160px;
+	height: 200px;
+	mix-blend-mode: saturation;
+
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  	position: fixed;
+	top: 0;
+	left: -400px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+}
+
+#container {
+  width: 1920px;
+  height: 100%;
+  margin: 0;
+   background-image: url('../images/familyFlip.jpg');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+
+#level1{
+	position: absolute;
+	top: 480px;
+	left: 710px;
+	width: 160px;
+	height: 160px;
+}
+#fire1{
+	position: absolute;
+	top: 600px;
+	left: 660px;
+	height: 300px;
+	mix-blend-mode: overlay;
+}
+#mountains{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 500px;
+	left: 1400px;
+	mix-blend-mode: overlay;
+}
+#mountains3{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 500px;
+	left: 1550px;
+	mix-blend-mode: overlay;
+}
+#cash{
+	position: absolute;
+	width: 300px;
+	top: 360px;
+	left: 1440px;
+	mix-blend-mode: hard-light;
+}
+#crack{
+	position: absolute;
+	top: -100px;
+	left: 640px;
+	width: 1400px;
+	mix-blend-mode: overlay;
+
+}
+#mountains2{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 500px;
+	left: 1700px;
+	mix-blend-mode: overlay;
+}
+#fire2{
+	position: absolute;
+	top: 600px;
+	left: 260px;
+	height: 300px;
+	mix-blend-mode: overlay;
+}
+#fire3{
+	position: absolute;
+	top: 600px;
+	left: 560px;
+	height: 300px;
+	mix-blend-mode: overlay;
+}
+#fire4{
+	position: absolute;
+	top: 600px;
+	left: 760px;
+	height: 300px;
+	mix-blend-mode: overlay;
+}
+#level2two{
+	position: absolute;
+	top: 280px;
+	left: 520px;
+	width: 160px;
+	height: 160px;
+}
+#level1two{
+	transform: rotate(90deg);
+	position: absolute;
+	top: 290px;
+	left: 780px;
+	width: 160px;
+	height: 160px;
+}
+#level2one{
+	transform: rotate(90deg);
+	position: absolute;
+	top: 80px;
+	left: 574px;
+	width: 160px;
+	height: 160px;
+}
+#level1three{
+	position: absolute;
+	top: 480px;
+	left: 970px;
+	width: 150px;
+	height: 150px;
+}
+#level3one{
+	position: absolute;
+	top: 500px;
+	left: 1330px;
+	width: 150px;
+	height: 150px;
+	transform: rotate(-30deg);
+	mix-blend-mode: soft-light;
+}
+#quake{
+	position: absolute;
+	top: -400px;
+	left: -300px;
+	mix-blend-mode: color-burn;
+	opacity: 0.5;
+}
+
+/* 
+need js to rotate all of them on click and then unlock second layer with fade in 
+forced pathing - if hover over wrong one it fades away 
+*/

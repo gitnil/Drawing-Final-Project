@@ -1,0 +1,73 @@
+body{
+	background-color: black;
+}
+.bg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	/*width: auto;*/
+	z-index: -1;
+	/*opacity: .4;*/
+}
+
+#orb1{
+	position: absolute;
+	top: 220px;
+	left: 80px;
+	width: 160px;
+	height: 160px;
+}
+
+#orb2{
+	position: absolute;
+	top: 102px;
+	left: 640px;
+	width: 160px;
+	height: 160px;
+}
+
+#orb3{
+	position: absolute;
+	top: 220px;
+	left: 1120px;
+	width: 160px;
+	height: 160px;
+}
+
+.text3{
+	position: relative;
+	top: -180px;
+	left: 210px;
+	color: white;
+	font-size: 48px;
+}
+
+.hide{
+	display: none;
+}
+
+.pedestal{
+  height: 200px;
+  opacity: 0.8;
+  position: absolute;
+  top: 360px;
+  left: 60px;
+}
+
+.pedestal2{
+  height: 200px;
+  opacity: 0.8;
+  position: absolute;
+  top: 240px;
+  left: 620px;
+}
+
+.pedestal3{
+  height: 200px;
+  opacity: 0.8;
+  position: absolute;
+  top: 360px;
+  left: 1100px;
+}

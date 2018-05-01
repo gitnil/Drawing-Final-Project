@@ -6,12 +6,13 @@ Drawing on the Web
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 #container {
   width: 1920px;
   height: 100%;
-  margin: auto;
+  overflow: hidden;
 }
 
 #frame {
@@ -28,10 +29,29 @@ canvas {
   width: 600px;
   height: 400px;
   float: left;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0;
 }
 
-video{
+#hideVid{
   width: 0px;
-  height: 0px;}
+  height: 0px;
+  display: none;}
+
+.hand{
+  height: 500px;
+  opacity: 0.8;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+.option{
+  display: inline-block;
+}
+
+#fillup{
+  width: 100%;
+  height:100px;
+  position: absolute;
+  margin-top: 880px;
+  background-color: blue;}

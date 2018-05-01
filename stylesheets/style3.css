@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  	position: fixed;
+	top: 0;
+	left: -300px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+}
+#circles{
+	position: absolute;
+}
+#element1{
+	position: absolute;
+	mix-blend-mode: soft-light;
+	opacity: 0.6;
+}
+#container {
+  width: 1920px;
+  height: 100%;
+  margin: auto;
+  background-image: url('../images/balance.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#overlay{
+  width: 1920px;
+  height: 100%;
+  margin: auto;
+  mix-blend-mode: color-burn;
+  opacity: 0.1;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#turtle{
+	mix-blend-mode: overlay;
+	position: relative;
+	width: 200px;
+	top: 460px;
+	left: 50px;
+}
+#star{
+	position: absolute;
+	transform: skew(10deg, 20deg);
+	mix-blend-mode: hard-light;
+	top: 680px;
+	left: 1400px;
+	width: 80px;
+}
+#turtle2{
+	mix-blend-mode: overlay;
+	position: relative;
+	width: 200px;
+	top: 500px;
+	left: -50px;
+}
+#turtle3{
+	mix-blend-mode: overlay;
+	position: relative;
+	width: 200px;
+	top: 500px;
+	left: -500px;
+}
+
+#birds{
+	width: 300px;
+	height: 300px;
+	position: relative;
+	left: 2000px;
+}
+#birdstwo{
+	width: 300px;
+	height: 300px;
+	position: relative;
+	left: 1500px;
+	top: -100px;
+}
+#overlay2{
+  width: 1920px;
+  height: 100%;
+  margin: auto;
+  mix-blend-mode: color-burn;
+  opacity: 0.3;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+#box12{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 676px;
+	left: 1212px;
+}
+
+#box11{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 550px;
+	left: 1210px;
+}
+
+#box10{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 450px;
+	left: 1225px;
+}
+
+#box9{
+	width: 52px;
+	height: 52px;
+	position: absolute;
+	top: 366px;
+	left: 1232px;
+}
+
+#box8{
+	width: 52px;
+	height: 52px;
+	position: absolute;
+	top: 306px;
+	left: 1232px;
+}
+
+#box7{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 262px;
+	left: 1238px;
+}
+
+#box6{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 212px;
+	left: 1238px;
+}
+
+#box5{
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: 180px;
+	left: 1244px;
+}
+
+#box4{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 146px;
+	left: 1246px;
+}
+
+#box3{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 116px;
+	left: 1246px;
+}
+
+#box2{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 84px;
+	left: 1246px;
+}
+#box1{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 54px;
+	left: 1246px;
+}

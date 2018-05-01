@@ -1,0 +1,57 @@
+/*
+Drawing on the Web
+3 horizontally-aligned canvas elements
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#container {
+  width: 1920px;
+  height: 100%;
+  overflow: hidden;
+}
+
+#frame {
+  width: inherit;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  margin-top: -200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+canvas {
+  width: 600px;
+  height: 400px;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#hideVid{
+  width: 0px;
+  height: 0px;}
+
+.hand{
+  height: 500px;
+  opacity: 0.8;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+.option{
+  display: inline-block;
+}
+
+#fillup{
+  width: 100%;
+  height:100px;
+  position: absolute;
+  margin-top: 880px;
+  background-color: blue;}

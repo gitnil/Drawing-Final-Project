@@ -3,23 +3,45 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Drawing Final 1</title>
+    <title>Drawing Navigation</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/navigation.css">
 
-    <style>
-      canvas {background-color: lightgray;} /* change or remove this color */
-    </style>
   </head>
 
   <body>
-            <video src="videos/london.mp4" autoplay loop muted></video>
+    <video class = "bg" autoplay muted loop>
+  <source src="videos/rocks2.mp4" type="video/mp4">
+</video>
 
-    <div id="container">
-        <canvas id="c1" width="100%" height="100%"></canvas>
-<!--         <canvas id="c2" width="600" height="400"></canvas>
-        <canvas id="c3" width="600" height="400"></canvas> -->
+<div id = "container">
+<div class = "option">
 
-      <script src="javascript/main.js"></script>
-    </div>
+<!-- <img class = "hand" src = "images/hand2invert.png">
+<img class = "hand" src = "images/hand2.png"> -->
+<img class = "pedestal" src="images/ped.png">
+<a href = "Drawing1.html"> <img id = "orb1" src = "images/ball4.png"> </a>
+<!-- <div class = "text3">Wealth</div> -->
+
+</div>
+
+<div class = "option">
+
+<img class = "pedestal3" src="images/ped.png">
+
+<a href = "Drawing2.html"> <img id = "orb3" src = "images/ball4.png"> </a>
+<!-- <div class = "text3">Balance</div> -->
+
+</div>
+
+<div class = "option">
+<img class = "pedestal2" src="images/ped.png">
+
+<a href = "Drawing3.html"> <img id = "orb2" src = "images/ball4.png"> </a>
+<!-- <div class = "text3">Happiness</div> -->
+</div>
+
+</div>
+<script src = "javascript/nav.js"></script>
   </body>
 </html>
